@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="xyz.jpg" height="30" ></li>
+            <li>MUSIC PLAYER</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <img src="xyz.jpg" height="350" width="800" id="image">
+        <h2>Playing:</h2> 
+        <h2 id="songname">MEHER-2</h2>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="rangebar" min="0" value="0" max="100"> 
+        <div class="icons">
+            <i class="fa-solid fa-3x fa-backward" id="prev"></i> &nbsp;&nbsp;
+            <i class="fa-solid fa-3x fa-play" id="playbutton"></i>&nbsp;&nbsp;
+            <i class="fa-solid fa-3x fa-forward" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="dribbble.gif" height="40" alt="gif" id="gif" >&nbsp;&nbsp;<h3>Playing music right now</h3>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/af465f41ef.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Itim&family=Mali:wght@200&display=swap');
+
+body {
+    background-image: linear-gradient(to left,#FFD966,#97D077);
+}
+
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+nav {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    height: 40px;
+    font-weight: bolder;
+    background-color: black;
+    color: azure;
+}
+.brand img{
+    padding: 0 8px;
+}
+
+nav ul li {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.container{
+    min-height: 55vh;
+    color:white;
+    background-color: black;
+    display :flex ;
+    border-radius: 12px;
+    margin: 20px auto;
+    padding: 40px ;
+    width: 70%;
+    font-family: 'Roboto', sans-serif;
+}
+.bottom{
+    height: 130px;
+    color: white;
+    bottom:0px;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#rangebar{
+    width: 200vh; 
+    cursor: pointer;
+}
+
+.icons{
+    margin-top: 14px;
+    cursor: pointer;
+}
+.songinfo{
+    display: flex;
+    position: absolute; 
+    left:0px
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
